@@ -34,6 +34,7 @@ public class App
         frame.setTitle("Image Editor");
         frame.setVisible(true);
         frame.setLayout(new GridLayout(1, 2, 0, 0));
+        frame.setLocationRelativeTo(null);
 
         //SOURCE PANEL
         JPanel sourcePanel = new JPanel();
